@@ -1,7 +1,9 @@
-site_name: Good Balance
+site_name: Code is Life
 
 theme:
   name: material
+  icon:
+    logo: material/code-json
   palette:
     # Palette toggle for light mode
     - scheme: default
@@ -21,6 +23,11 @@ theme:
     - navigation.path
     - navigation.top
 
+plugins:
+  - meta:
+  - blog:
+      post_url_format: "{date}/{slug}"
+
 markdown_extensions:
   - pymdownx.highlight:
       use_pygments: true
@@ -36,9 +43,15 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.magiclink
   - pymdownx.smartsymbols
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 nav:
   - About: "about.md"
+  - Blog:
+    - blog/index.md
+
   - Documentation:
       - Introduction: "index.md"
 
