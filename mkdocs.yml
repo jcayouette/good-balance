@@ -1,0 +1,204 @@
+site_name: Good Balance
+
+theme:
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.indexes
+    - navigation.instant
+    - navigation.tracking
+    - navigation.path
+    - navigation.top
+
+markdown_extensions:
+  - pymdownx.highlight:
+      use_pygments: true
+      anchor_linenums: true
+      auto_title: true
+      linenums: true
+  - pymdownx.superfences
+  - toc:
+      permalink: "#"
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.smartsymbols
+
+nav:
+  - About: "about.md"
+  - Documentation:
+      - Introduction: "index.md"
+
+      # FRONTEND
+      - Frontend:
+
+          # HTML
+          - HTML:
+            - Overview: "html/overview.md"
+            - HTTP Messages: "html/HTTP-messages/http-status-messages.md"
+            - tags:
+              - comments: "html/tags/1_tag_comments.md"
+              - doctype: "html/tags/2_tag_doctype.md"
+              - a: "html/tags/tag_a.md"
+              - abbr: "html/tags/tag_abbr.md"
+              - acronym: "html/tags/tag_acronym.md"
+              - address: "html/tags/tag_address.md"
+              - area: "html/tags/tag_area.md"
+              - article: "html/tags/tag_article.md"
+              - aside: "html/tags/tag_aside.md"
+              - audio: "html/tags/tag_audio.md"
+              - b: "html/tags/tag_b.md"
+              - base: "html/tags/tag_base.md"
+              - bdi: "html/tags/tag_bdi.md"
+              - bdo: "html/tags/tag_bdo.md"
+              - blockquote: "html/tags/tag_blockquote.md"
+              - body: "html/tags/tag_body.md"
+              - br: "html/tags/tag_br.md"
+              - button: "html/tags/tag_button.md"
+              - canvas: "html/tags/tag_canvas.md"
+              - caption: "html/tags/tag_caption.md"
+              - cite: "html/tags/tag_cite.md"
+              - code: "html/tags/tag_code.md"
+              - col: "html/tags/tag_col.md"
+              - colgroup: "html/tags/tag_colgroup.md"
+              - data: "html/tags/tag_data.md"
+              - datalist: "html/tags/tag_datalist.md"
+              - dd: "html/tags/tag_dd.md"
+              - del: "html/tags/tag_del.md"
+              - details: "html/tags/tag_details.md"
+              - dfn: "html/tags/tag_dfn.md"
+              - dialog: "html/tags/tag_dialog.md"
+              - div: "html/tags/tag_div.md"
+              - dl: "html/tags/tag_dl.md"
+              - dt: "html/tags/tag_dt.md"
+              - em: "html/tags/tag_em.md"
+              - embed: "html/tags/tag_embed.md"
+              - fieldset: "html/tags/tag_fieldset.md"
+              - figcaption: "html/tags/tag_figcaption.md"
+              - figure: "html/tags/tag_figure.md"
+              - footer: "html/tags/tag_footer.md"
+              - form: "html/tags/tag_form.md"
+              - hn: "html/tags/tag_hn.md"
+              - head: "html/tags/tag_head.md"
+              - header: "html/tags/tag_header.md"
+              - hr: "html/tags/tag_hr.md"
+              - html: "html/tags/tag_html.md"
+              - i: "html/tags/tag_i.md"
+              - iframe: "html/tags/tag_iframe.md"
+              - img: "html/tags/tag_img.md"
+              - input: "html/tags/tag_input.md"
+              - ins: "html/tags/tag_ins.md"
+              - kbd: "html/tags/tag_kbd.md"
+              - label: "html/tags/tag_label.md"
+              - legend: "html/tags/tag_legend.md"
+              - li: "html/tags/tag_li.md"
+              - link: "html/tags/tag_link.md"
+              - main: "html/tags/tag_main.md"
+              - map: "html/tags/tag_map.md"
+              - mark: "html/tags/tag_mark.md"
+              - meta: "html/tags/tag_meta.md"
+              - meter: "html/tags/tag_meter.md"
+              - nav: "html/tags/tag_nav.md"
+              - noscript: "html/tags/tag_noscript.md"
+              - object: "html/tags/tag_object.md"
+              - ol: "html/tags/tag_ol.md"
+              - optgroup: "html/tags/tag_optgroup.md"
+              - option: "html/tags/tag_option.md"
+              - output: "html/tags/tag_output.md"
+              - p: "html/tags/tag_p.md"
+              - param: "html/tags/tag_param.md"
+              - picture: "html/tags/tag_picture.md"
+              - pre: "html/tags/tag_pre.md"
+              - progress: "html/tags/tag_progress.md"
+              - q: "html/tags/tag_q.md"
+              - rp: "html/tags/tag_rp.md"
+              - rt: "html/tags/tag_rt.md"
+              - ruby: "html/tags/tag_ruby.md"
+              - s: "html/tags/tag_s.md"
+              - samp: "html/tags/tag_samp.md"
+              - script: "html/tags/tag_script.md"
+              - section: "html/tags/tag_section.md"
+              - select: "html/tags/tag_select.md"
+              - small: "html/tags/tag_small.md"
+              - source: "html/tags/tag_source.md"
+              - span: "html/tags/tag_span.md"
+              - strong: "html/tags/tag_strong.md"
+              - style: "html/tags/tag_style.md"
+              - sub: "html/tags/tag_sub.md"
+              - summary: "html/tags/tag_summary.md"
+              - sup: "html/tags/tag_sup.md"
+              - svg: "html/tags/tag_svg.md"
+              - table: "html/tags/tag_table.md"
+              - tbody: "html/tags/tag_tbody.md"
+              - td: "html/tags/tag_td.md"
+              - template: "html/tags/tag_template.md"
+              - textarea: "html/tags/tag_textarea.md"
+              - tfoot: "html/tags/tag_tfoot.md"
+              - th: "html/tags/tag_th.md"
+              - thead: "html/tags/tag_thead.md"
+              - time: "html/tags/tag_time.md"
+              - title: "html/tags/tag_title.md"
+              - tr: "html/tags/tag_tr.md"
+              - track: "html/tags/tag_track.md"
+              - tt: "html/tags/tag_tt.md"
+              - u: "html/tags/tag_u.md"
+              - ul: "html/tags/tag_ul.md"
+              - var: "html/tags/tag_var.md"
+              - video: "html/tags/tag_video.md"
+              - wbr: "html/tags/tag_wbr.md"
+
+          # CSS
+          - CSS:
+            - Overview: "css/overview.md"
+
+          # Javascript
+          - Javascript:
+            #- Include: 'javascript/include.md'
+            - Getting Started:
+              - Why learn Javascript?: "javascript/getting-started/why-learn-js.md"
+              - Setup your dev env: "javascript/getting-started/setup-dev-environment.md"
+
+          # React
+          - React:
+              - Overview: "react/overview.md"
+              - Setup: "react/setup.md"
+
+          
+
+      # BACKEND
+      - Backend:
+          # Node
+          - NodeJS:
+              - Overview: "nodejs/overview.md"
+              - ECMAScript: "nodejs/es6.md"
+              - Setup: "nodejs/setup.md"
+
+          # ExpressJS
+          - ExpressJS:
+              - Overview: "expressjs/overview.md"
+              - Setup: "expressjs/setup.md"
+          
+
+
+      - Dev Tools:
+          # GitHub
+          - GitHub:
+              - Overview: "github/overview.md"
+          
+          # typescript
+          - Typescript:
+              - Overview: "typescript/overview.md"
+              - Setup: "typescript/setup.md"
