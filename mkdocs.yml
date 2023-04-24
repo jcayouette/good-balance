@@ -33,6 +33,11 @@ plugins:
   - blog:
 
 markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.highlight:
       use_pygments: true
       anchor_linenums: true
@@ -51,6 +56,7 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - admonition    
   - abbr
   - attr_list
   - md_in_html
@@ -192,6 +198,9 @@ nav:
               - Getting Started:
                   - Why learn Javascript?: "javascript/getting-started/why-learn-js.md"
                   - Setup your dev env: "javascript/getting-started/setup-dev-environment.md"
+                  - Add JS to HTML: "javascript/getting-started/adding-js-to-html.md"
+              - Essentials: 
+                  - Variables: "javascript/essentials/variables.md"
 
           # React
           - React:
