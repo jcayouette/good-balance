@@ -200,6 +200,8 @@ nav:
                   - Setup your dev env: "javascript/getting-started/setup-dev-environment.md"
                   - Add JS to HTML: "javascript/getting-started/adding-js-to-html.md"
               - Essentials: 
+                  - Primitive Data Types:
+                    - String: "javascript/essentials/primitive-data-types/string.md"
                   - Variables: "javascript/essentials/variables.md"
 
           # React
