@@ -33,7 +33,7 @@ graph LR
     [:octicons-arrow-right-24: Getting started with CSS3](./css/overview.md)
 </div>
 
-## Frontend: intermediate +
+## Frontend: intermediate
 
 <div class="grid cards" markdown>
 -   :material-language-javascript:{ .lg .middle } __Javascript__
@@ -53,7 +53,7 @@ graph LR
     [:octicons-arrow-right-24: Getting started with React](./react/overview.md)
 </div>
 
-## Backend: intermediate +
+## Backend: intermediate
 
 <div class="grid cards" markdown>
 -   :material-nodejs:{ .lg .middle } __NodeJS__

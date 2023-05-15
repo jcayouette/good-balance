@@ -68,11 +68,11 @@ markdown_extensions:
         - includes/abbreviations.md
 
 nav:
-  - Docs:
+  - Learning:
       - Introduction: "index.md"
 
       # FRONTEND
-      - Frontend:
+      - Frontend (client):
           # HTML
           - HTML:
               - Overview: "html/overview.md"
@@ -208,7 +208,7 @@ nav:
               - Setup: "react/setup.md"
 
       # BACKEND
-      - Backend:
+      - Backend (server):
           # Node
           - NodeJS:
               - Overview: "nodejs/overview.md"
